@@ -1,0 +1,4 @@
+<section>
+  <app-child [isEventDemo]="true" [title]="eventCallToAction" (titleUpdate)="titleUpdate($event)"></app-child>
+  <h3>{{titleEventBinding}}</h3>
+</section>

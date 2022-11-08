@@ -1,0 +1,7 @@
+<section>
+  <p>title send from parent is: <strong>"{{title}}</strong>"!</p>
+
+  <ng-container *ngIf="isEventDemo">
+    <button (click)="emitTitleUpdate()">Fire event</button>
+  </ng-container>
+</section>

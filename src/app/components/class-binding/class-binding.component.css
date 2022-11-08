@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.some_class {
+  width: 90%;
+  height: 30px;
+  background-color: #1976d2;
+  border-radius: 5px;
+}
+
+.some_other_class {
+  width: 90%;
+  height: 30px;
+  background-color: #125699;
+  border-radius: 5px;
+}
+
+.active {
+  width: 90%;
+  height: 30px;
+  background-color: #333333;
+  border-radius: 5px;
+}
+
+.some_border_class {
+  border: 1px solid #e6ebf1;
+}
