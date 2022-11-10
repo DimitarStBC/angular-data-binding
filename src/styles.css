@@ -80,10 +80,9 @@ svg.material-icons:not(:last-child) {
 }
 
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
 
 .card {
@@ -92,7 +91,7 @@ svg.material-icons:not(:last-child) {
   border: 1px solid #eee;
   background-color: #fafafa;
   height: 40px;
-  width: 200px;
+  width: 250px;
   margin: 0 8px 16px;
   padding: 16px;
   display: flex;
@@ -109,7 +108,7 @@ svg.material-icons:not(:last-child) {
 
 .card.card-small {
   height: 16px;
-  width: 168px;
+  width: 250px;
 }
 
 .card-container .card:not(.highlight-card) {

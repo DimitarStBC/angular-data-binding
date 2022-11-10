@@ -1,0 +1,14 @@
+<section>
+
+  <input [(ngModel)]="name">
+  <h3>Name is: {{name}}</h3>
+
+  <h2>Example with Input and Output</h2>
+  <!-- Keep in mind you may have an error with Property ‘value’ does not exist on type ‘EventTarget’ -->
+  <input [value]="middle_name" (input)="middle_name = $any($event.target).value">
+  <h3>Middle name is: {{middle_name}}</h3>
+
+  <h2>Example with Input and event</h2>
+  <input [value]="last_name" (input)="handleLastName($event)">
+  <h3>Last name is: {{last_name}}</h3>
+</section>
